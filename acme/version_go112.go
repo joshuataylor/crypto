@@ -10,14 +10,14 @@ package acme
 import "runtime/debug"
 
 func init() {
-	// Set packageVersion if the binary was built in modules mode and x/crypto
+	// Set packageVersion if the binary was built in modules mode and joshuataylor/crypto
 	// was not replaced with a different module.
 	info, ok := debug.ReadBuildInfo()
 	if !ok {
 		return
 	}
 	for _, m := range info.Deps {
-		if m.Path != "golang.org/x/crypto" {
+		if m.Path != "golang.org/joshuataylor/crypto" {
 			continue
 		}
 		if m.Replace == nil {

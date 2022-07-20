@@ -9,7 +9,7 @@
 // for their specific task. If you are required to interoperate with OpenPGP
 // systems and need a maintained package, consider a community fork.
 // See https://golang.org/issue/44226.
-package openpgp // import "golang.org/x/crypto/openpgp"
+package openpgp // import "golang.org/joshuataylor/crypto/openpgp"
 
 import (
 	"crypto"
@@ -18,9 +18,9 @@ import (
 	"io"
 	"strconv"
 
-	"golang.org/x/crypto/openpgp/armor"
-	"golang.org/x/crypto/openpgp/errors"
-	"golang.org/x/crypto/openpgp/packet"
+	"golang.org/joshuataylor/crypto/openpgp/armor"
+	"golang.org/joshuataylor/crypto/openpgp/errors"
+	"golang.org/joshuataylor/crypto/openpgp/packet"
 )
 
 // SignatureType is the armor type for a PGP signature.

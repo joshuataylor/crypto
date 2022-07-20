@@ -26,8 +26,8 @@ import (
 	"math/big"
 	"strings"
 
-	"golang.org/x/crypto/ed25519"
-	"golang.org/x/crypto/ssh/internal/bcrypt_pbkdf"
+	"golang.org/joshuataylor/crypto/ed25519"
+	"golang.org/joshuataylor/crypto/ssh/internal/bcrypt_pbkdf"
 )
 
 // Public key algorithms names. These values can appear in PublicKey.Type,
@@ -383,7 +383,7 @@ func parseRSA(in []byte) (out PublicKey, rest []byte, err error) {
 func (r *rsaPublicKey) Marshal() []byte {
 	e := new(big.Int).SetInt64(int64(r.E))
 	// RSA publickey struct layout should match the struct used by
-	// parseRSACert in the x/crypto/ssh/agent package.
+	// parseRSACert in the joshuataylor/crypto/ssh/agent package.
 	wirekey := struct {
 		Name string
 		E    *big.Int
@@ -455,7 +455,7 @@ func parseDSA(in []byte) (out PublicKey, rest []byte, err error) {
 
 func (k *dsaPublicKey) Marshal() []byte {
 	// DSA publickey struct layout should match the struct used by
-	// parseDSACert in the x/crypto/ssh/agent package.
+	// parseDSACert in the joshuataylor/crypto/ssh/agent package.
 	w := struct {
 		Name       string
 		P, Q, G, Y *big.Int
@@ -647,7 +647,7 @@ func (k *ecdsaPublicKey) Marshal() []byte {
 	// See RFC 5656, section 3.1.
 	keyBytes := elliptic.Marshal(k.Curve, k.X, k.Y)
 	// ECDSA publickey struct layout should match the struct used by
-	// parseECDSACert in the x/crypto/ssh/agent package.
+	// parseECDSACert in the joshuataylor/crypto/ssh/agent package.
 	w := struct {
 		Name string
 		ID   string

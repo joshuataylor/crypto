@@ -7,9 +7,9 @@ package chacha20poly1305
 import (
 	"encoding/binary"
 
-	"golang.org/x/crypto/chacha20"
-	"golang.org/x/crypto/internal/poly1305"
-	"golang.org/x/crypto/internal/subtle"
+	"golang.org/joshuataylor/crypto/chacha20"
+	"golang.org/joshuataylor/crypto/internal/poly1305"
+	"golang.org/joshuataylor/crypto/internal/subtle"
 )
 
 func writeWithPadding(p *poly1305.MAC, b []byte) {

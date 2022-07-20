@@ -16,7 +16,7 @@ import (
 	"io"
 	"math/big"
 
-	"golang.org/x/crypto/curve25519"
+	"golang.org/joshuataylor/crypto/curve25519"
 )
 
 const (

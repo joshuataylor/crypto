@@ -4,7 +4,7 @@
 
 // Package acmetest provides types for testing acme and autocert packages.
 //
-// TODO: Consider moving this to x/crypto/acme/internal/acmetest for acme tests as well.
+// TODO: Consider moving this to joshuataylor/crypto/acme/internal/acmetest for acme tests as well.
 package acmetest
 
 import (
@@ -34,7 +34,7 @@ import (
 	"testing"
 	"time"
 
-	"golang.org/x/crypto/acme"
+	"golang.org/joshuataylor/crypto/acme"
 )
 
 // CAServer is a simple test server which implements ACME spec bits needed for testing.
