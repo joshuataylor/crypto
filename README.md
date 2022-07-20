@@ -1,13 +1,13 @@
 # Go Cryptography
 
-[![Go Reference](https://pkg.go.dev/badge/golang.org/joshuataylor/crypto.svg)](https://pkg.go.dev/golang.org/joshuataylor/crypto)
+[![Go Reference](https://pkg.go.dev/badge/github.com/joshuataylor/crypto.svg)](https://pkg.go.dev/github.com/joshuataylor/crypto)
 
 This repository holds supplementary Go cryptography libraries.
 
 ## Download/Install
 
-The easiest way to install is to run `go get -u golang.org/joshuataylor/crypto/...`. You
-can also manually git clone the repository to `$GOPATH/src/golang.org/joshuataylor/crypto`.
+The easiest way to install is to run `go get -u github.com/joshuataylor/crypto/...`. You
+can also manually git clone the repository to `$GOPATH/src/github.com/joshuataylor/crypto`.
 
 ## Report Issues / Send Patches
 

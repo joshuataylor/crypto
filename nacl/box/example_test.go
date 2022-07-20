@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"io"
 
-	"golang.org/joshuataylor/crypto/nacl/box"
+	"github.com/joshuataylor/crypto/nacl/box"
 )
 
 func Example() {

@@ -8,7 +8,7 @@ import (
 	"bytes"
 	"crypto/sha1"
 	"encoding/hex"
-	"golang.org/joshuataylor/crypto/openpgp/errors"
+	"github.com/joshuataylor/crypto/openpgp/errors"
 	"io"
 	"io/ioutil"
 	"testing"

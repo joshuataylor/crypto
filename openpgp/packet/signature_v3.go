@@ -12,8 +12,8 @@ import (
 	"strconv"
 	"time"
 
-	"golang.org/joshuataylor/crypto/openpgp/errors"
-	"golang.org/joshuataylor/crypto/openpgp/s2k"
+	"github.com/joshuataylor/crypto/openpgp/errors"
+	"github.com/joshuataylor/crypto/openpgp/s2k"
 )
 
 // SignatureV3 represents older version 3 signatures. These signatures are less secure

@@ -13,8 +13,8 @@ import (
 	"strings"
 	"testing"
 
-	"golang.org/joshuataylor/crypto/openpgp/armor"
-	"golang.org/joshuataylor/crypto/openpgp/errors"
+	"github.com/joshuataylor/crypto/openpgp/armor"
+	"github.com/joshuataylor/crypto/openpgp/errors"
 )
 
 func readerFromHex(s string) io.Reader {

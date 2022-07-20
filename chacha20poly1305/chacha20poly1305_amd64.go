@@ -10,7 +10,7 @@ package chacha20poly1305
 import (
 	"encoding/binary"
 
-	"golang.org/joshuataylor/crypto/internal/subtle"
+	"github.com/joshuataylor/crypto/internal/subtle"
 	"golang.org/x/sys/cpu"
 )
 

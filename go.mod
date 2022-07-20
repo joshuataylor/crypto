@@ -1,4 +1,4 @@
-module golang.org/joshuataylor/crypto
+module github.com/joshuataylor/crypto
 
 go 1.17
 

@@ -8,7 +8,7 @@ import (
 	ed25519std "crypto/ed25519"
 	"testing"
 
-	"golang.org/joshuataylor/crypto/ed25519"
+	"github.com/joshuataylor/crypto/ed25519"
 )
 
 func TestTypeAlias(t *testing.T) {

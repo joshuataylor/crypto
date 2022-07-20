@@ -23,8 +23,8 @@ package sign
 import (
 	"io"
 
-	"golang.org/joshuataylor/crypto/ed25519"
-	"golang.org/joshuataylor/crypto/internal/subtle"
+	"github.com/joshuataylor/crypto/ed25519"
+	"github.com/joshuataylor/crypto/internal/subtle"
 )
 
 // Overhead is the number of bytes of overhead when signing a message.

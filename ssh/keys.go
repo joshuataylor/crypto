@@ -26,8 +26,8 @@ import (
 	"math/big"
 	"strings"
 
-	"golang.org/joshuataylor/crypto/ed25519"
-	"golang.org/joshuataylor/crypto/ssh/internal/bcrypt_pbkdf"
+	"github.com/joshuataylor/crypto/ed25519"
+	"github.com/joshuataylor/crypto/ssh/internal/bcrypt_pbkdf"
 )
 
 // Public key algorithms names. These values can appear in PublicKey.Type,

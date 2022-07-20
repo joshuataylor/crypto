@@ -14,8 +14,8 @@ import (
 	"fmt"
 	"testing"
 
-	"golang.org/joshuataylor/crypto/cryptobyte"
-	casn1 "golang.org/joshuataylor/crypto/cryptobyte/asn1"
+	"github.com/joshuataylor/crypto/cryptobyte"
+	casn1 "github.com/joshuataylor/crypto/cryptobyte/asn1"
 )
 
 func TestECDH(t *testing.T) {

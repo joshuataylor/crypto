@@ -8,7 +8,7 @@ import (
 	"encoding/binary"
 	"hash"
 
-	"golang.org/joshuataylor/crypto/blake2b"
+	"github.com/joshuataylor/crypto/blake2b"
 )
 
 // blake2bHash computes an arbitrary long hash value of in

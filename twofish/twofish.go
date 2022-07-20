@@ -8,8 +8,8 @@
 // applications. Also, this package does not and will not provide an optimized
 // implementation. Instead, use AES (from crypto/aes, if necessary in an AEAD
 // mode like crypto/cipher.NewGCM) or XChaCha20-Poly1305 (from
-// golang.org/joshuataylor/crypto/chacha20poly1305).
-package twofish // import "golang.org/joshuataylor/crypto/twofish"
+// github.com/joshuataylor/crypto/chacha20poly1305).
+package twofish // import "github.com/joshuataylor/crypto/twofish"
 
 // Twofish is defined in https://www.schneier.com/paper-twofish-paper.pdf [TWOFISH]
 

@@ -32,12 +32,12 @@ chunk size.
 
 This package is interoperable with NaCl: https://nacl.cr.yp.to/secretbox.html.
 */
-package secretbox // import "golang.org/joshuataylor/crypto/nacl/secretbox"
+package secretbox // import "github.com/joshuataylor/crypto/nacl/secretbox"
 
 import (
-	"golang.org/joshuataylor/crypto/internal/poly1305"
-	"golang.org/joshuataylor/crypto/internal/subtle"
-	"golang.org/joshuataylor/crypto/salsa20/salsa"
+	"github.com/joshuataylor/crypto/internal/poly1305"
+	"github.com/joshuataylor/crypto/internal/subtle"
+	"github.com/joshuataylor/crypto/salsa20/salsa"
 )
 
 // Overhead is the number of bytes of overhead when boxing a message.
